@@ -1,0 +1,82 @@
+
+Coordinates ( 5, 7 ) Inserted Successfully!!!
+
+Coordinates ( 3, 9 ) Inserted Successfully!!!
+
+Coordinates ( 4, 15 ) Inserted Successfully!!!
+
+Coordinates ( 8, 10 ) Inserted Successfully!!!
+
+Coordinates ( 6, 12 ) Inserted Successfully!!!
+
+Binary Search Tree in order printout: 
+[ (3,9),  (4,15),  (5,7),  (8,10),  (6,12)]
+
+Coordinates ( 3, 7 ) Inserted Successfully!!!
+
+Coordinates ( 5, 3 ) Inserted Successfully!!!
+
+Binary Search Tree in order printout: 
+[ (3,7),  (5,3),  (3,9),  (4,15),  (5,7),  (8,10),  (6,12)]
+
+Insert Coordinates ( 5, 7 ) failed!!!
+**Duplicate coordinates are not allowed**
+
+Coordinates ( 10, 15 ) Inserted Successfully!!!
+
+Coordinates ( 7, 6 ) Inserted Successfully!!!
+
+Binary Search Tree in order printout: 
+[ (3,7),  (5,3),  (3,9),  (4,15),  (5,7),  (7,6),  (8,10),  (6,12),  (10,15)]
+
+Rectangle search printout: 
+[ (3,9),  (3,7)]
+Between  (1,3) and  (4,9)
+
+Coordinates ( 3, 8 ) Inserted Successfully!!!
+
+Coordinates ( 6, 14 ) Inserted Successfully!!!
+
+Binary Search Tree in order printout: 
+[ (3,8),  (3,7),  (5,3),  (3,9),  (4,15),  (5,7),  (7,6),  (8,10),  (6,14),  (6,12),  (10,15)]
+
+Coordinates ( 1, 10 ) Inserted Successfully!!!
+
+Coordinates ( 5, 12 ) Inserted Successfully!!!
+
+Coordinates ( 6, 8 ) Inserted Successfully!!!
+
+Coordinates ( 4, 1 ) Inserted Successfully!!!
+
+Coordinates ( 9, 10 ) Inserted Successfully!!!
+
+Coordinates ( 15, 12 ) Inserted Successfully!!!
+
+Coordinates ( 9, 9 ) Inserted Successfully!!!
+
+Binary Search Tree in order printout: 
+[ (3,8),  (3,7),  (4,1),  (5,3),  (3,9),  (1,10),  (4,15),  (5,12),  (5,7),  (6,8),  (7,6),  (9,9),  (9,10),  (8,10),  (6,14),  (6,12),  (15,12),  (10,15)]
+
+Rectangle search printout: 
+[ (3,9),  (3,7),  (3,8)]
+Between  (1,3) and  (4,9)
+
+Rectangle search printout: 
+[ (5,7),  (3,9),  (3,7),  (3,8),  (5,3),  (7,6),  (6,8),  (9,9)]
+Between  (9,9) and  (1,3)
+
+Rectangle search printout: 
+[ (5,7),  (5,12),  (8,10),  (7,6),  (6,8),  (9,10),  (9,9),  (6,12)]
+Between  (4,6) and  (10,13)
+
+Rectangle search printout: 
+[ (6,8)]
+Between  (6,8) and  (6,8)
+
+Rectangle search printout: 
+[]
+Between  (20,20) and  (17,17)
+
+Rectangle search printout: 
+[ (3,9),  (3,7),  (3,8)]
+Between  (1,3) and  (4,9)

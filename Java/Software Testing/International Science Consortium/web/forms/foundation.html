@@ -1,0 +1,193 @@
+<!--
+/*
+ * Arelys De La Guardia
+ * Deisy Hernandez
+ * Michael Smythers
+ * Daniel Galano
+ * Jairo Pava
+ *
+ * International Science Consoritum Control System
+ *
+ * December 1, 2009
+ */
+-->
+
+<html>
+<head>
+<!-- #This webpage displays a timeout message to an ISC user. It is displayed after
+	 logging off a user who has been inactive on the ISC web page for more than
+	 15 minutes.
+	 
+	 See Use Case ISCUC-30 for more details.
+	-->
+<title>ISC Control System</title>
+<meta http-equiv="Content-Type" content="text/html;">
+<SCRIPT language=JavaScript>
+function makeArray() {
+     for (i = 0; i<makeArray.arguments.length; i++)
+         this[i] = makeArray.arguments[i];
+ }
+
+function getFullYear(d) {
+    var y = d.getYear();
+    if (y < 1000) {y += 1900};
+    return y;
+}
+
+//var zone = "EDT";
+var days = new makeArray("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var months = new makeArray("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function format_time(t) {
+
+    var Day = t.getDay();
+    var Date = t.getDate();
+    var Month = t.getMonth();
+    var Year = t.getFullYear();
+
+    timeString = "";
+    timeString += days[Day];
+    timeString += ", ";
+    timeString += " ";
+    timeString += months[Month];
+    timeString += " ";
+    timeString += Date;
+    timeString += ", ";
+    timeString += " ";
+    timeString += Year;
+
+   return timeString;
+ }
+</SCRIPT>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.style2 {
+	font-size: 12px
+}
+-->
+</style>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr> 
+    <td bgcolor="#395080" height="50" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+        <tr> 
+          <td width="50%" valign="top"><span class="style1">International Science Consortium</span></td>
+          <td width="50%" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="15">
+              <tr> 
+                <td valign="top" align="right" class="menutext"> 
+                  <script language=JavaScript>
+			<!--
+			d = new Date();
+			document.write(format_time(d));
+			// -->
+		</script>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="98" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+        <tr> 
+          <td valign="top" width="82%"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+              <tr bgcolor="#EAEBE4"> 
+                <td height="73" valign="top" bgcolor="#EAEBE4"><img src="images/spacer.gif" width="1" height="73"></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="25" bgcolor="#395080" class="menutext" nowrap width="98%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">About 
+                  Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">Site 
+                  Map</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="menutext">Contact 
+                  </a></td>
+                <td height="25" width="22" valign="bottom"><img name="triangle1" src="images/triangle1.jpg" width="22" height="25" border="0"></td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top" align="right" width="340"><img name="graphic1" src="images/graphic1.jpg" width="340" height="98" border="0"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="72%" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+        <tr>
+          <td valign="top" width="152" bgcolor="#395080"> 
+            <table width="152" border="0" cellspacing="0" cellpadding="0" height="100%">
+              <tr> 
+                <td width="152" bgcolor="#395080" height="140" valign="top"><img name="graphic2" src="images/graphic2.jpg" width="152" height="128" border="0"></td>
+              </tr>
+              <tr> 
+                <td valign="top" bgcolor="#395080"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="3" height="100">
+                    <tr> 
+                      <td width="10" align="right"><img src="images/square.jpg" width="7" height="7"></td>
+                      <td nowrap class="menutext"><a href="#" class="menutext">Log In</a></td>
+                    </tr>
+                    <tr> 
+                      <td width="10" align="right"><img src="images/square.jpg" width="7" height="7"></td>
+                      <td class="menutext">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td width="10" align="right"><img src="images/square.jpg" width="7" height="7"></td>
+                      <td class="menutext">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td width="10" align="right"><img src="images/square.jpg" width="7" height="7"></td>
+                      <td class="menutext">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td width="10" align="right"><img src="images/square.jpg" width="7" height="7"></td>
+                      <td class="menutext">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td valign="top" width="85%"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="20" height="100%">
+              <tr> 
+                <td valign="top" height="420" class="text"> <!-- #BeginEditable "content" -->
+                  
+                <!-- #EndEditable --></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="43" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="43">
+        <tr> 
+          <td width="152" height="23" bgcolor="#395080"><img src="images/spacer.gif" width="152" height="8"></td>
+          <td height="23" width="19" valign="top" align="right" bgcolor="#395080"><img name="triangle2" src="images/triangle2.jpg" width="25" height="25" border="0"></td>
+          <td height="23" bgcolor="#EAEBE4" width="92%" class="text" align="center" valign="middle" nowrap><a href="#" class="text">Home</a> | <a href="#" class="text">About</a> | <a href="#" class="text">Sitemap</a>| <a href="#" class="text">Contact</a></td>
+        </tr>
+        <tr> 
+          <td height="20" bgcolor="#395080">&nbsp;</td>
+          <td height="20" bgcolor="#395080">&nbsp;</td>
+          <td height="20" bgcolor="#395080" valign="middle" align="center" class="footer">Copyright 
+          &copy; 2009 International Science Consortium All Rights Reserved. a href="http://www.entheosweb.com/" target="_blank"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

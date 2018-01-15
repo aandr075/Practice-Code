@@ -1,0 +1,67 @@
+I 5 7                 This means insert a point (5,7)
+
+I 3 9
+
+I 4 15
+
+I 8 10
+
+I 6 12
+
+O                                 This means output the data in the tree in In-order
+
+                                    At this stage, make sure that your output is correct
+
+                                    by checking it manually.
+
+I 3 7
+
+I 5 3
+
+O
+
+I 5 7
+
+I 10 15
+
+I 7 6
+
+O
+
+S 1 3 4 9                       This means search all points in the rectangle whose
+
+                                    diagonal joins end-points (1, 3) and (4, 9)
+
+I 3 8
+
+I 6 14
+
+O
+
+I 1 10
+
+I 5 12
+
+I 6 8
+
+I 4 1
+
+I 9 10
+
+I 15 12
+
+I 9 9
+
+O
+
+S 1 3 4 9
+
+S 9 9 1 3
+
+S 4 6 10 13
+
+S 6 8 6 8
+
+S 20 20 17 17
+
+S 1 3 4 9
